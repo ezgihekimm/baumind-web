@@ -1,0 +1,205 @@
+{
+	"header": {
+		"home": "Homepage",
+		"about-us": "About Us",
+		"products": "Products",
+		"projects": "Projects",
+		"contact-us": "Contact Us",
+		"human-res": "Human Resources"
+	},
+
+	"footer": {
+		"bau": "BAU Innovation and Consultancy Inc.",
+		"rights": "All Rights Reserved"
+	},
+
+	"home":{
+		"title": "BAU Innovation and Consultancy Inc.",
+		"slider": {
+			"slide1Tag": "CO-DIVER",
+			"slide1Text": "Underwater Optical Communication",
+			"slide2Tag": "CO-LIGHTING",
+			"slide2Text": "Underwater Lighting Device",
+			"slide3Tag": "Projects",
+			"slide3Text": "Submarine-Helicopter Communication",
+			"slide4Tag": "Projects",
+			"slide4Text": "Underwater Optical Spectrum Meter",
+			"buttonText": "More Information"
+		},
+		"grid": {
+			"title1": "An Underwater Analyzer for Analyzing Water Absorption Ability",
+			"tag1_1": "Optics",
+			"tag1_2": "Patent",
+			"title2": "Wireless Image Transmission Device for Optical Sight Weapons",
+			"tag2_1": "Optics",
+			"tag2_2": "Patent",
+			"title3": "Maritime Optical Communication Device",
+			"subtitle3": "coLink is a communication system produced to provide information security and to establish quality communication maritime.",
+			"title4": "Innovative Technological Generation Training Kit",
+			"subtitle4": "YETENEK-12 is a training kit developed within the scope of TÜBİTAK 1511 Priority Areas Research Technology Development and Innovation Projects Support Program.",
+			"title5": "Underwater Lighting Device",
+			"tag5_1": "Lighting",
+			"title6": "Self Acoustic Estimation and Acoustic Monitoring/Warning System in Submarines",
+			"tag6_1": "Acoustic",
+			"tag6_2": "Project",
+			"exploreButton": "Explore Now"
+		},
+		"latestPatents": {
+			"tag": "Research & Development",
+			"title": "Latest Patents",
+			"patent1": "Underwater electro-optical communication system",
+			"patent1-tag1": "Underwater",
+			"patent1-tag2": "Optics",
+			"patent2": "Wireless Image Transmission Device for Optical Sight Weapons",
+			"patent2-tag1": "Optics",
+			"patent2-tag2": "Communication",
+			"patent3": "An Underwater Analyzer for Analyzing the Absorption Ability of Water",
+			"patent3-tag1": "Underwater",
+			"patent3-tag2": "Analyzer",
+			"buttonText": "More Information",
+			"seemore": "See More Patents"
+		},
+		"seemore": "See More Moments"
+	},
+
+	"aboutus": {
+		"tag": "Our Company",
+		"title": "About Us",
+		"whoarewe": "Who Are We?",
+		"whoarewe-content": "BAU Inc.; In the first stage, it started its activities as a Technology Development Unit with in Bahçeşehir University in 2008.Afterwards, in 2012, he took the name of Project Development Unit and carried out the Technology Acquisition project supported by the Undersecretariat of Defense Industry called Safe Electro Optical Communication System Between Submarine Helicopters with a budget of 1.M Euros.",
+		"whoarewe-content-long": "BAU Inc.; In the first stage, it started its activities in 2008 as a Technology Development Unit within Bahçeşehir University. Afterwards, in 2012, he took the name of Project Development Unit and carried out the Technology Acquisition project supported by the Undersecretariat of Defense Industry named “Safe Electro Optical Communication System Between Submarine Helicopters” with a budget of 1.1 M Euros. For the first time in 2016, BAU A.Ş. took its name and moved its activities to the Teknopark Istanbul location. In 2016, he carried out the Technology Acquisition project in partnership with ITU Nova, supported by another Undersecretariat for Defense Industries. In 2018, he left Teknopark Istanbul to apply for an R&D Center and moved to its current building in Nakkaştepe Campus. It carries out 2 completed and 2 ongoing TÜBİTAK Projects since 2018. BAU Inc. With 23 personnel, 8 different departments, 4 completed, 2 ongoing projects, 4 prototypes and 10 patents, it continues to work to become a leader in its field to meet Turkey's technological needs in the military and civil fields.",
+		"aims": "Our Aims",
+		"aims-content": "Turkey's military and military security and honestly; First of all, to have a business competency in the electro- and science field, in terms of technology and health solutions, a recent competition.",
+		"vision": "Vision & Mission",
+		"vision-content": "In pursuit of new technologies, to be a leading institution with domestic and international competence that produces information and technology in the field of electro-optics in line with Turkey's technological needs and strategic goals in military and civil fields.",
+		"history": "History",
+		"history1": "2005-2012 Bahçeşehir University Project Development Unit – Beşiktaş / ISTANBUL",
+		"history2": "2012-2016 Bahçeşehir University R&D and Innovation Projects Coordinator- Beşiktaş / İSTANBUL",
+		"history3": "2016-2022 BAU Innovation and Consulting Inc. Uskudar/ İSTANBUL",
+		"history4": "2022-Present Bahçeşehir University Education Building Eyüpsultan/ İSTANBUL",
+		"aims1": "To be one of the competitive companies both domestic and abroad that produce information, technology and innovative solutions, in line with the Turkey’s demands in military/commercial markets, primarily within the scope of electro-optics and acoustics.",
+		"aims2": "To execute hi-tech R&D and product development activities in order to help technological independence of Turkey, while establishing strategical partnership with the universities and engineering firms for the creation of innovative solutions in the field of electro-optics and acoustics.",
+		"aims3": "In addition to provide consultancy-training services to the institutions and firms in the market, licensing and technology transfer of our innovative projects, products-solutions for both civilian and military use.",
+		"patent": {
+			"tag": "Research & Development",
+			"title": "Patents",
+			"patent1": "Sualtı elektro-optik haberleşme sistemi",
+			"patent2": "Su altı optik akustik kompozit tuzak sistemi",
+			"patent3": "Optik Nişangâhlı Silahlarda Kablosuz Görüntü Aktarma Cihazı",
+			"patent4": "Bir Lastik Aşınma Kontrol Sistemi",
+			"patent5": "Sualtı Aydınlatma Tertibatı",
+			"patent6": "Suyun Soğurma Kabiliyetini Analiz Etmek İçin Bir Sualtı Analiz Cihazı",
+			"patent7": "Su Altında Aydınlatma Yapmaya Uygun Bir Aydınlatma Tertibatı",
+			"patent8": "Bir Su Altı Haberleşme Cihazı",
+			"patent9": "Sualtı Platformları Arasında Haberleşme Cihazı",
+			"patent10": "Modüler Bir Elektro Optik Haberleşme Cihazı",
+			"buttonText": "More Information"
+		}
+	},
+
+	"products": {
+		"scroll": "JUST SCROLL",
+		"more-info": "More Information",
+
+		"colighting": {
+			"tag": "UNDERSEA",
+			"info": "coLighting is a lighting system that offers innovative solutions in its technological field."
+		},
+
+		"codiver":{
+			"tag": "OPTICS",
+			"info": "coDiver is a communication system produced to provide information security and to establish quality communication underwater."
+		},
+
+		"colink": {
+			"tag": "OPTICS",
+			"info": "coLink is a communication system produced to provide information security and to establish quality communication maritime."
+		},
+
+		"yetenek": {
+			"tag": "EDUCATION",
+			"info": "YETENEK-12 is a education kit developed within the scope of TÜBİTAK 1511 Priority Areas Research, Technology Development and Innovation Projects Support Program."
+		}
+	},
+
+	"projects": {
+		"tag": "Research & Development",
+		"title": "Projects",
+		"buttonText": "More Information",
+		"project1": {
+			"name": "Underwater Optical Spectrum Meter",
+			"tag1": "Optics",
+			"tag2": "Underwater"
+		},
+		"project2": {
+			"name": "Self Acoustic Estimation and Acoustic Monitoring/Warning System in Submarines",
+			"tag1": "Acoustic",
+			"tag2": "Underwater"
+		},
+		"project3": {
+			"name": "Secure Optical Communication System Between Submarine and Helicopter",
+			"tag1": "Optics",
+			"tag2": "Communication"
+		}
+	},
+
+	"contactus": {
+		"tag": "Our Company",
+		"title": "Contact Us",
+		"phone": "Phone",
+		"address": "Address",
+		"form": "Contact Form",
+		"buttonText": "Send a Message",
+		"formEmail": "Email",
+		"formName": "Name",
+		"formMessage": "Message",
+		"fulladdress": "Mithatpaşa Mah. Rumeli Yolu Cad. Bahçeşehir Üniversitesi Eğitim Binası Blok No: 35/24 İç Kapı No: 6 Eyüpsultan/İSTANBUL"
+	},
+
+	"error": {
+		"title": "404 Page",
+		"info": "The page you are looking for does not exist. It might have been moved or deleted.",
+		"buttonText": "Back To Home"
+	},
+
+	"comingsoon": {
+		"tag": "Almost Here",
+		"title": "Coming Soon",
+		"text": "The page you are looking for is not available yet. Please check back later.",
+		"buttonText": "Go Back"
+	},
+
+
+
+
+	"colight":{
+	"giris":"coLighting is a lighting system that offers innovative solutions in its technological field. coLighting is a system that automatically adjusts the RGB light intensity by measuring the wavelength-based attenuation in the operational aquatic environment.",
+	"teknikbaslik":"Technical Specifications",
+	"teknik1":"It detects the missing spectrum and automatically adjusts the required wavelengths to provide clarity",
+	"teknik2":"It fiils all visible wavelengths in the LED spectrum with RGB LEDs",
+	"teknik3":"The wavelength is in the range of 400nm-870nm",
+	"teknik4":"It adjusts by measuring the level of white light in the water",
+	"teknik5":"Since the system works linearly(LED drive),it elimantes the shading problem",
+	"teknik6":"It provides clearer and more detailed images by preventing white light spot",
+	"part":"Technical Parts",
+	"part1":"Aluminium Design",
+	"part2":"Color Sensors",
+	"part3":"Battery Unit"
+	},
+	
+	"codiver":{
+	"tag": "OPTIK",
+	"info": "coDiver is a communication system produced to provide information security and to establish quality communication underwater. LEDs (Light emitting diode) placed on the Electro-optic transmitter were used as the light source in the device, which works according to the electro-optic principles, and the detector was used in the Electro-optic receiver.",
+	"giris":"coDiver is a communication system produced to provide information security and to establish quality communication underwater. LEDs (Light emitting diode) placed on the Electro-optic transmitter were used as the light source in the device, which works according to the electro-optic principles, and the detector was used in the Electro-optic receiver. The most important feature of the device according to current applications is that the signal emanating from the source can only reach the target in the form of a beam. Thus, long distance, uninterrupted and, secure communication is provided between the users.",
+	"teknik1":"Impermeability : 60 Meters",
+	"teknik2":"Operation Time : Full-Duplex 5 hours (With 2 hours charge)",
+	"teknik2h":"Half-Duplex 5 hours (With 2 hours charge)",
+	"teknik3":"Transmitter Type : LED",
+	"teknik4":"Montage : Hand-held",
+	"teknik5":"Power Capacity : 6.000 mAh",
+	"teknik6":"Weight : 2Kg",
+	"teknik7": "Storage Conditions : -5 °C/ +45 °C",
+	"teknik8": "Working Conditions : 0 °C/ +45 °C"
+	},
+		
+}

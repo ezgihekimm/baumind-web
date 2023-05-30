@@ -1,0 +1,221 @@
+{
+	"header": {
+		"home": "Ana Sayfa",
+		"about-us": "Hakkımızda",
+		"products": "Ürünler",
+		"projects": "Projeler",
+		"contact-us": "Bize Ulaşın",
+		"human-res": "İnsan Kaynakları"
+	},
+
+	"footer": {
+		"bau": "BAU İnovasyon ve Danışmanlık A.Ş.",
+		"rights": "Tüm Hakları Saklıdır"
+	},
+
+	"home":{
+		"title": "BAU İnovasyon ve Danışmanlık A.Ş.",
+		"slider": {
+			"slide1Tag": "CO-DIVER",
+			"slide1Text": "Su Altı Optik Muharebe Cihazı",
+			"slide2Tag": "CO-LIGHTING",
+			"slide2Text": "Su Altı Aydınlatma Cihazı",
+			"slide3Tag": "Projeler",
+			"slide3Text": "Denizaltı-Helikopter Haberleşme Sistemi",
+			"slide4Tag": "Projeler",
+			"slide4Text": "Su Altı Optik Spektrum Ölçüm Cihazı",
+			"buttonText": "Daha Fazla"
+		},
+		"grid": {
+			"title1": "Sualtı Optik Spektrum Ölçüm Cihazı",
+			"tag1_1": "Optik",
+			"tag1_2": "Patent",
+			"title2": "Optik Nişangâhlı Silahlarda Kablosuz Görüntü Aktarma Cihazı",
+			"tag2_1": "Optik",
+			"tag2_2": "Patent",
+			"title3": "Su Üstü Optik Muharebe Cihazı",
+			"subtitle3": "coLink, su üstü alanlarda bilgi güvenliği sağlamak ve kaliteli iletişim kurabilmek amacıyla üretilmiş bir haberleşme sistemidir.",
+			"title4": "Yenilikçi Teknolojik Nesil Eğitim Kiti",
+			"subtitle4": "YETENEK-12, TÜBİTAK 1511 Öncelikli Alanlar Araştırma Teknoloji Geliştirme ve Yenilik Projeleri Destekleme Programı kapsamında geliştirilmiş bir eğitim kitidir.",
+			"title5": "Su Altı Aydınlatma Cihazı",
+			"tag5_1": "Aydınlatma",
+			"tag5_2": "Ürün",
+			"title6": "Denizaltılarda Öz Akustik Kestirimi Ve Akustik İzleme/Uyarı Sistemi",
+			"tag6_1": "Akustik",
+			"tag6_2": "Proje",
+			"exploreButton": "Şimdi Keşfet"
+		},
+		"latestPatents": {
+			"tag": "Araştırma & Geliştirme",
+			"title": "Son Patentler",
+			"patent1": "Sualtı elektro-optik haberleşme sistemi",
+			"patent1-tag1": "Su altı",
+			"patent1-tag2": "Optik",
+			"patent2": "Optik Nişangâhlı Silahlarda Kablosuz Görüntü Aktarma Cihazı",
+			"patent2-tag1": "Optik",
+			"patent2-tag2": "Haberleşme",
+			"patent3": "Suyun Soğurma Kabiliyetini Analiz Etmek İçin Bir Sualtı Analiz Cihazı",
+			"patent3-tag1": "Su altı",
+			"patent3-tag2": "Analiz",
+			"buttonText": "Daha Fazla",
+			"seemore": "Tüm Patentler"
+		}
+	},
+
+	"aboutus": {
+		"tag": "Şirketimiz",
+		"title": "Hakkımızda",
+		"whoarewe": "Biz Kimiz?",
+		"whoarewe-content": "BAU A.Ş.; İlk etapta 2008 yılında Bahçeşehir Üniversitesi bünyesinde Teknoloji Geliştirme Birimi olarak faaliyetlerine başlamıştır. Sonrasında 2012 yılında ise Proje Geliştirme Birimi ismini alarak 1.M Euro bütçe ile “Denizaltı Helikopter Arasında Güvenli Elektro Optik Haberleşme Sistemi” adlıSavunma Sanayi Müsteşarlığı tarafından desteklenen Teknoloji Kazanım projesini yürüttü.",
+		"whoarewe-content-long": "BAU A.Ş.; ilk etapta 2008 yılında Bahçeşehir Üniversitesi bünyesinde Teknoloji Geliştirme Birimi olarak faaliyetlerine başladı. Sonrasında 2012 yılında ise Proje Geliştirme Birimi ismini alarak 1.1 M Euro bütçe ile “Denizaltı Helikopter Arasında Güvenli Elektro Optik Haberleşme Sistemi” adlı Savunma Sanayi Müsteşarlığı tarafından desteklenen Teknoloji Kazanım projesini yürüttü. 2016 yılında ilk defa BAU A.Ş. adını alarak faaliyetlerini Teknopark İstanbul mevkiine taşıdı. 2016 senesinde başka bir Savunma Sanayi Müsteşarlığı tarafından desteklenen İTÜ Nova ortaklığı ile Teknoloji Kazanım projesini yürüttü. 2018 yılında Ar-Ge Merkezi başvurusu yapmak için Teknopark İstanbul’dan ayrılarak Nakkaştepe Yerleşkesinde bulunan şimdiki binasına taşındı. 2018 yılından bu yana yapılan 2 tamamlanmış 2 devam etmekte olan TÜBİTAK Projelerini yürütmektedir. BAU A.Ş. 23 personel, 8 farklı bölüm, 4 tamamlanmış 2 devam etmekte olan proje 4 prototip ve 10 adet patent ile Türkiye’nin askeri ve sivil alanda teknolojik ihtiyaçlarını karşılamak için alanında lider olmak için çalışmalarına devam etmektedir.",
+		"aims": "Hedeflerimiz",
+		"aims-content": "Türkiye’nin askeri ve sivil alanlarda teknolojik ihtiyaçları ve stratejik hedefleri doğrultusunda; öncelikli olarak elektro-optik ve akustik alanında bilgi, teknoloji ve yenilikçi çözümler üreten, yurtiçinin yanı sıra yurtdışında da rekabet edebilecek yetkinliğe sahip lider bir firma olmak.",
+		"vision": "Vizyon & Misyon",
+		"vision-content": "Yeni teknolojilerin peşinde Türkiye’ nin askeri ve sivil alanlarda teknolojik ihtiyaçları ve stratejik hedefleri doğrultusunda elektro-optik alanında bilgi ve teknoloji üreten yurtiçi ve yurtdışında yetkinliğe sahip lider bir kurum olmak.",
+		"history": "Tarihçe",
+		"history1": "2005-2012 Bahçeşehir Üniversitesi Proje Geliştirme Birimi – Beşiktaş / İSTANBUL",
+		"history2": "2012-2016 Bahçeşehir Üniversitesi ARGE ve İnovasyon Projeleri Koordinatörlüğü- Beşiktaş / İSTANBUL",
+		"history3": "2016-2022 BAU İnovasyon ve Danışmanlık A.Ş. Üsküdar/ İSTANBUL",
+		"history4": "2022-Halen Bahçeşehir Üniversitesi Eğitim Binası Eyüpsultan/ İSTANBUL",
+		"aims1":"Türkiye’nin askeri ve sivil alanlarda teknolojik ihtiyaçları ve stratejik hedefleri doğrultusunda; öncelikli olarak elektro-optik ve akustik alanında bilgi, teknoloji ve yenilikçi çözümler üreten, yurtiçinin yanı sıra yurtdışında da rekabet edebilecek yetkinliğe sahip lider bir firma olmak.",
+		"aims2":" Türkiye’nin teknolojik alanda dış ülkelere bağlılığını azaltmada katkıda bulunacak nitelikte, elektro-optik ve akustik alanında yenilikçi çözümler üretmek amacıyla, üniversiteler ve diğer mühendislik firmaları ile stratejik ortaklıklar kurarak, ileri teknolojileri uygulamaları içeren ARGE ve ürün geliştirme faaliyetlerini yürütmek.",
+		"aims3":" Askeri ve sivil çift kullanıma uygun yenilikçi proje ve ürünlerimizi-çözümlerimizi ilgili sektörlere lisanslamak/teknolojiyi transfer etmek, bunlara ek olarak sektördeki kurum ve firmalara uzmanlık alanlarımızda danışmanlık-eğitim hizmeti sunmaktır.",
+		"patent": {
+			"tag": "Araştırma & Geliştirme",
+			"title": "Patentler",
+			"patent1":"Sualtı elektro-optik haberleşme sistemi",
+			"patent2":"Su altı optik akustik kompozit tuzak sistemi",
+			"patent3":"Optik Nişangâhlı Silahlarda Kablosuz Görüntü Aktarma Cihazı",
+			"patent4":"Bir Lastik Aşınma Kontrol Sistemi",
+			"patent5":"Sualtı Aydınlatma Tertibatı",
+			"patent6":"Suyun Soğurma Kabiliyetini Analiz Etmek İçin Bir Sualtı Analiz Cihazı",
+			"patent7":"Su Altında Aydınlatma Yapmaya Uygun Bir Aydınlatma Tertibatı",
+			"patent8":"Bir Su Altı Haberleşme Cihazı",
+			"patent9":"Sualtı Platformları Arasında Haberleşme Cihazı",
+			"patent10":"Modüler Bir Elektro Optik Haberleşme Cihazı",
+			"buttonText": "Daha Fazla Bilgi"
+		}
+	},
+
+	"products": {
+		"scroll": "SAYFAYI KAYDIRIN",
+		"more-info": "Daha Fazla Bilgi",
+
+		"colighting": {
+			"tag": "DENİZ ALTI",
+			"info": "coLighting, bulunduğu teknolojik alanda yenilikçi çözümler sunan bir aydınlatma sistemidir."
+		},
+
+		"codiver":{
+			"tag": "OPTİK",
+			"info": "coDiver, sualtında bilgi güvenliği sağlamak ve kaliteli iletişim kurabilmek amacıyla üretilmiş bir haberleşme sistemidir."
+		},
+
+		"colink": {
+			"tag": "OPTİK",
+			"info": "coLink, su üstü alanlarda bilgi güvenliği sağlamak ve kaliteli iletişim kurabilmek amacıyla üretilmiş bir haberleşme sistemidir."
+		},
+
+		"yetenek": {
+			"tag": "EĞİTİM",
+			"info": "YETENEK-12, TÜBİTAK 1511 Öncelikli Alanlar Araştırma Teknoloji Geliştirme ve Yenilik Projeleri Destekleme Programı kapsamında geliştirilmiş bir eğitim kitidir."
+		}
+	},
+
+	"projects": {
+		"tag": "Araştırma & Geliştirme",
+		"title": "Projeler",
+		"buttonText": "Daha Fazla Bilgi",
+		"project1": {
+			"name": "Su Altı Optik Spektrum Ölçüm Cihazı",
+			"tag1": "Optik",
+			"tag2": "Su altı"
+		},
+		"project2": {
+			"name": "Denizaltılarda Öz Akustik Kestirimi ve Akustik İzleme/Uyarı Sistemi",
+			"tag1": "Akustik",
+			"tag2": "Su altı"
+		},
+		"project3": {
+			"name": "Denizaltı-Helikopter Arasında Güvenli Optik Haberleşme Sistemi",
+			"tag1": "Optik",
+			"tag2": "İletişim"
+		}
+	},
+
+	"contactus": {
+		"tag": "Şirketimiz",
+		"title": "Bize Ulaşın",
+		"phone": "Telefon",
+		"address": "Adres",
+		"form": "İletişim Formu",
+		"buttonText": "Mesaj Gönder",
+		"formEmail": "Email",
+		"formName": "İsim",
+		"formMessage": "Mesajınız",
+		"fulladdress": "Mithatpaşa Mah. Rumeli Yolu Cad. Bahçeşehir Üniversitesi Eğitim Binası Blok No: 35/24 İç Kapı No: 6 Eyüpsultan/İSTANBUL"
+	},
+
+	"error": {
+		"title": "404 Hata",
+		"info": "Aradığınız sayfa mevcut değil. Taşınmış veya silinmiş olabilir.",
+		"buttonText": "Anasayfaya Dön"
+	},
+
+	"comingsoon": {
+		"tag": "Neredeyse Burada",
+		"title": "Çok Yakında",
+		"text": "Aradığınız sayfa henüz mevcut değil. Lütfen daha sonra tekrar kontrol edin.",
+		"buttonText": "Geri Dön"
+	},
+
+
+
+
+"project1":{
+"arastirma":"ARAŞTIRMA & GELİŞTİRME",
+"projeler":"Projeler",
+"name":"Su Altı Optik Spektrum Ölçüm Cihazı",
+"1":"Suyun hidrokarbon dağılımının incelenmesi",
+"2":"Suyun alg kapasitesinin incelenmesi (biyoaktiflik)",
+"3":"Suyun plankton kapasitesinin incelenmesi",
+"4":"Sudaki toprak parçacıklarının erozyon açısından incelenmesi,",
+"5":"Metan incelemesi (biyoaktiflik, fay hatlarının incelenmesi)",
+"6":"Su kalitesinin incelenmesi",
+"7":"Tuzluluk oranının tuz cinsine bağlı olarak hassas şekilde incelenmesi",
+"8":"Türk denizlerinde optik iletkenlik haritalarının çıkarılması",
+"amac":" Projenin amacı; deniz veya göl sularının optik iletkenliğinin, dalga boyuna bağlı olarak ölçülmesidir.Bu ölçüm sonucunda elde edilen grafiğin analiz edilmesi ile bize sağlayabileceği bilgiler ve kullanılabileceği alanlar:"
+},
+"project2":{
+"name":"Denizaltılarda Öz Akustik Kestirimi ve Akustik İzleme/Uyarı Sistemi",
+"baslik":"DENİZALTILARDA ÖZ AKUSTİK KESTİRİMİ VE AKUSTİK İZLEME/UYARI SİSTEMİ",
+"amac":"Proje konusu sistemler bir kablosuz iletişim teknolojisi olup, radyo dalgaları yerine ışık huzmesi ve yüksek frekanslı ses dalgaları(ultrasonik) ile iki platform arasında ses aktarımı sağlanmaktadır. Bu sistemlerde ışık kaynağı olarak yüksek frekanslı modüle edilmiş LED veya lazer ışık kaynakları kullanılmaktadır. Elektro-optik sistemler, görüşün yetersiz olduğu durumlarda ve sis vb. hava koşullarında verimsiz olduğu için sistem bu gibi durumlarda akustik haberleşme ile iletişimi sağlayacaktır. ",
+"bilgi":"Savunma Sanayi Başkan’lığı ile Anadolu Deniz İnşaat Kızakları A.Ş. Arasında Mart 2016’da imzalanan Amfibi Gemi (LST) Tedarik Sözleşmesi kapsamında, Teknoloji Kazanım Projesi başlığı altında İTÜNOVA ile sözleşmeye bağlanan “Denizaltılarda Öz Akustik Kestirimi ve Akustik İzleme/Uyarı Sistemi Prototip Geliştirilmesi Projesi Sözleşmesi“ (DAKİS) projesinde üstlenilen komuta kontrol yazılımı geliştirilmesi ve sensör tasarım-imalatı Aralık 2018 yılında başarıyla tamamlanmış ve İTÜNOVA’ ya teslim edilmiştir. "
+},
+"project4":{
+"name":"Denizaltı-Helikopter Arasında Güvenli Optik Haberleşme Sistemi",
+"1":"Haberleşme menzili: 74,5 metre (test edilebilen 22,5 m sualtı, 52 m suüstü)",
+"2":"Optik olarak LED vasıtası ile iletişim sağlar.",
+"3":"Yönlendirilmiş iletişim sağlar",
+"4":"Full Duplex iletişim sağlar",
+"5":"EMI ve RF karıştırmaya dayanıklılık",
+"head":"DENİZALTI GEMİSİ HELİKOPTER ARASINDA GÜVENLİ ELEKTRO-OPTİK HABERLEŞME SİSTEMİ ",
+"amac":"Savunma Sanayi Başkanlığı ile İstanbul Denizcilik Gemi İnşa Sanayi A.Ş. arasında Nisan 2012 yılında imzalanan Sismik Araştırma Gemisi İnşa Projesi kapsamında, Teknoloji Kazanım Projesi başlığı altında sözleşmeye bağlanan (Ağustos 2012) “Denizaltı ile Helikopter Arasında Güvenli Optik Haberleşme Sistemi”(DEHEGOPHS) projesi 2015 yılında başarıyla tamamlanmıştır.",
+"head1":"(DEHEGOPHS)"
+},
+"colight":{
+"giris":"coLighting, bulunduğu teknolojik alanda yenilikçi çözümler sunan bir aydınlatma sistemidir. coLighting, operasyonel su ortamında dalga boyu bazlı zayıflama miktarını ölçerek RGB ışık yoğunluğunu otomatik olarak ayarlayan bir sistemdir.",
+"teknikbaslik":"Technical Specifications",
+"teknik1":"It detects the missing spectrum and automatically adjusts the required wavelengths to provide clarity",
+"teknik2":"It fiils all visible wavelengths in the LED spectrum with RGB LEDs",
+"teknik3":"The wavelength is in the range of 400nm-870nm",
+"teknik4":"It adjusts by measuring the level of white light in the water",
+"teknik5":"Since the system works linearly(LED drive),it elimantes the shading problem",
+"teknik6":"It provides clearer and more detailed images by preventing white light spot",
+"part":"Technical Parts",
+"part1":"Aluminium Design",
+"part2":"Color Sensors",
+"part3":"Battery Unit"
+},
+
+}
