@@ -1,11 +1,16 @@
 {
 	"header": {
 		"home": "Ana Sayfa",
-		"about-us": "Hakkımızda",
+		"corporate": "Kurumsal",
 		"products": "Ürünler",
 		"projects": "Projeler",
 		"contact-us": "Bize Ulaşın",
-		"human-res": "İnsan Kaynakları"
+		"human-res": "İnsan Kaynakları",
+		"who-are-we": "Biz Kimiz?",
+		"about-us": "Hakkımızda",
+		"patents": "Patentler",
+		"news": "Haberler",
+		"hr": "İnsan Kaynakları"
 	},
 
 	"footer": {
@@ -216,6 +221,6 @@
 "part1":"Aluminium Design",
 "part2":"Color Sensors",
 "part3":"Battery Unit"
-},
+}
 
 }

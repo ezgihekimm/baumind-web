@@ -33,10 +33,48 @@
 						<router-link :to="linkCreator(this.$i18n.locale, 'about-us')" custom v-slot="{ navigate, href }">
 							<a :href="href" @click="navigate" class="menu-item" :class="{'whiteLine': type == 'transparent' || type == 'black', 'blackLine': type == 'white' || type == 'transparentBlack' || type == 'fixed'}">
 								<i :class="[isActiveRoute(href) ? 'fa-solid' : 'fa-regular', 'fa-circle', 'circle']"></i>
-								<div class="menuTitle">{{ $t('header.about-us')}}</div>
+								<div class="menuTitle">{{ $t('header.corporate')}}</div>
 								<i class="fa-solid fa-chevron-right arrowRight"></i>
 							</a>
 						</router-link>
+						   <!-- Dropdown Content -->
+    <ul class="dropdown">
+        <li >
+            <router-link :to="linkCreator(this.$i18n.locale, 'about-us')" custom v-slot="{ navigate, href }">
+                <a :href="href" @click="navigate" class="dropDown-item">
+                    {{$t('header.who-are-we')}} 
+                </a>
+            </router-link>
+        </li>
+				<li>
+            <router-link :to="linkCreator(this.$i18n.locale, 'about-us')" custom v-slot="{ navigate, href }">
+                <a :href="href" @click="navigate" class="dropDown-item">
+									{{$t('header.about-us')}} 
+                </a>
+            </router-link>
+        </li>
+				<li>
+            <router-link :to="linkCreator(this.$i18n.locale, 'about-us')" custom v-slot="{ navigate, href }">
+                <a :href="href" @click="navigate" class="dropDown-item">
+									{{$t('header.patents')}} 
+                </a>
+            </router-link>
+        </li>
+				<li>
+            <router-link :to="linkCreator(this.$i18n.locale, '')" custom v-slot="{ navigate, href }">
+                <a :href="href" @click="navigate" class="dropDown-item">
+									{{$t('header.news')}} 
+                </a>
+            </router-link>
+        </li>
+				<li>
+            <router-link :to="linkCreator(this.$i18n.locale, 'contact-us')" custom v-slot="{ navigate, href }">
+                <a :href="href" @click="navigate" class="dropDown-item">
+									{{$t('header.hr')}} 
+                </a>
+            </router-link>
+        </li>
+    </ul>				
 					</li>
 
 					<li>
@@ -249,11 +287,11 @@ export default {
 .list ul li {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: start;
 	list-style: square;
 	margin-right: 20px;
 	margin-left: 15px;
-	padding: 20px 0;
+	padding: 10px;
 }
 .list ul li a.menu-item {
 	text-decoration: none;
@@ -264,11 +302,9 @@ export default {
 	align-items: center;
 	transition: color 0.5s;
 	height: 30px;
-
 	background-size: 0% 1px;
 	background-position: 0% 100%;
 	background-repeat: no-repeat;
-	transition: background 0.3s linear;
 }
 .whiteLine{
 	background-image: linear-gradient(white, white);
@@ -298,6 +334,42 @@ export default {
 .nodisplay{
 	display: none !important;
 }
+/* Inside your style section */
+.list ul li .dropdown {
+    display: none;
+    position: absolute;
+		width: 200px;
+    top: 55px;
+		background-color: white;
+		height: 220px;
+		border: 1px solid #e5e5e5;
+		border-radius: 5px;
+}
+
+.list ul li:hover .dropdown {
+    display: block;
+}
+.dropDown-item {
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.dropDown-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black; 
+    transition: width 0.3s ease;
+}
+
+.dropDown-item:hover::before {
+    width: 100%;
+}
+
 
 @media screen and (max-width: 1023px) {
 
@@ -400,5 +472,7 @@ export default {
 	._container{
 		box-shadow: 0 0 12px rgb(0 0 0 / 6%);
 	}
+
+
 }
 </style>

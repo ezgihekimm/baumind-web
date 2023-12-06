@@ -1,11 +1,16 @@
 {
 	"header": {
 		"home": "Homepage",
-		"about-us": "About Us",
+		"corporate": "Corporate",
 		"products": "Products",
 		"projects": "Projects",
 		"contact-us": "Contact Us",
-		"human-res": "Human Resources"
+		"human-res": "Human Resources",
+		"who-are-we": "Who Are We?",
+		"about-us": "About Us",
+		"patents": "Patents",
+		"news": "News",
+		"hr": "Human Resources"
 	},
 
 	"footer": {
@@ -200,6 +205,6 @@
 	"teknik6":"Weight : 2Kg",
 	"teknik7": "Storage Conditions : -5 °C/ +45 °C",
 	"teknik8": "Working Conditions : 0 °C/ +45 °C"
-	},
+	}
 		
 }
