@@ -39,13 +39,6 @@
 						</router-link>
 						   <!-- Dropdown Content -->
     <ul class="dropdown">
-        <li >
-            <router-link :to="linkCreator(this.$i18n.locale, 'about-us')" custom v-slot="{ navigate, href }">
-                <a :href="href" @click="navigate" class="dropDown-item">
-                    {{$t('header.who-are-we')}} 
-                </a>
-            </router-link>
-        </li>
 				<li>
             <router-link :to="linkCreator(this.$i18n.locale, 'about-us')" custom v-slot="{ navigate, href }">
                 <a :href="href" @click="navigate" class="dropDown-item">
@@ -341,7 +334,7 @@ export default {
 		width: 200px;
     top: 55px;
 		background-color: white;
-		height: 220px;
+		height: 175px;
 		border: 1px solid #e5e5e5;
 		border-radius: 5px;
 }

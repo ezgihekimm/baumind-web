@@ -1,7 +1,6 @@
 <template>
 	<Header type="transparent" />
 	<Slider />
-	<ScrollingText />
 	<AboutUs />
 	<Grid />
 	<LatestPatents />
@@ -13,7 +12,6 @@
 import AOS from 'aos'
 import Header from '../components/common/Header'
 import Slider from '../components/home/Slider'
-import ScrollingText from '../components/home/ScrollingText'
 import AboutUs from '../components/home/AboutUs'
 import Grid from '../components/home/Grid'
 import LatestPatents from '../components/home/LatestPatents'
@@ -25,7 +23,6 @@ export default {
 	components: {
 		Header,
 		Slider,
-		ScrollingText,
 		AboutUs,
 		Grid,
 		LatestPatents,
