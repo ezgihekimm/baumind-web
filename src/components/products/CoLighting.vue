@@ -13,9 +13,7 @@
             </p>
         </div>
     </div>
-
     <div class="technicalContainer">
-
         <div class="technicalColText">
             <h1 class="technicalTitle">
                 {{$t('colight.teknikbaslik')}}
@@ -32,43 +30,34 @@
             </p>
         </div>
         <div class="technicalColImg">
-            <img class="technicalImg" src="@/assets/images/colighting/teknik2.jpg" alt="">
-
+            <img class="technicalImg" src="@/assets/images/colighting/teknik.png" alt="">
         </div>
-
     </div>
     <h1 class="partHead">
           {{$t('colight.part')}}
     </h1>
     <div class="partContainer">
-
         <div class="partImg">
-            <img src="@/assets/images/colighting/design.jpg" alt="">
+            <img src="@/assets/images/colighting/aluminyum.png" alt="">
             <h2 class="partTitle">{{$t('colight.part1')}}</h2>
         </div>
         <div class="vl"></div>
         <div class="partImg">
-            <img src="@/assets/images/colighting/color.jpg" alt="">
+            <img src="@/assets/images/colighting/color.png" alt="">
             <h2 class="partTitle">{{$t('colight.part2')}}</h2>
         </div>
         <div class="vl"></div>
         <div class="partImg">
-            <img src="@/assets/images/colighting/battery.jpg" alt="">
-            <h2 class="partTitle">{{$t('colight.part2')}}</h2>
+            <img src="@/assets/images/colighting/battery.png" alt="">
+            <h2 class="partTitle">{{$t('colight.part3')}}</h2>
         </div>
-
     </div>
-
 </div>
 </template>
 
-<script>
-
-</script>
-
 <style scoped>
 ._container {
-    background-color: #121212;
+    background-color: #131619;
     font-family: 'DM Sans', sans-serif;
     padding: 5%;
 }
@@ -80,7 +69,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .introColImg {
@@ -96,44 +85,7 @@
     height: 50%;
     min-height: 450px;
     object-fit: cover;
-    transition: transform .2s;
 }
-
-.introImg:hover {
-    opacity: 1;
-    -webkit-animation: flash 1s;
-    animation: flash 1s;
-    transform: scale(1.01)
-}
-
-@-webkit-keyframes flash {
-
-    0%,
-    50%,
-    100% {
-        opacity: 1;
-    }
-
-    25%,
-    75% {
-        opacity: 0;
-    }
-}
-
-@keyframes flash {
-
-    0%,
-    50%,
-    100% {
-        opacity: 1;
-    }
-
-    25%,
-    75% {
-        opacity: 0;
-    }
-}
-
 .introColText {
     display: flex;
     width: 40%;
@@ -165,10 +117,7 @@
 }
 .vl{
     border-left: 1px dotted rgba(255, 255, 255, 0.5);
-
-
 }
-
 .partHead {
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
@@ -180,7 +129,6 @@
     justify-content: center;
     margin-bottom: 80px;
 }
-
 .partImg {
     display: flex;
     flex-direction: column;
@@ -189,22 +137,18 @@
     width: 33%;
     transition: transform 250ms ease-in-out;
 }
-
 .partImg img {
     height: 300px;
     object-fit: contain;
     /* border: 1px solid green; */
 }
-
 .partTitle {
     color: rgb(169, 167, 167);
     margin-top: 30px;
 }
-
 .partImg:hover {
     transform: translateY(-30px);
 }
-
 /* End Parts */
 
 @media screen and (max-width: 1023px) {
@@ -242,13 +186,12 @@
 
 
 }
-
 /* technical */
 .technicalContainer {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .technicalColImg {

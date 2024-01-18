@@ -15,7 +15,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import Title from "../common/Title.vue";
 import List from "../common/List.vue";
@@ -52,35 +51,48 @@ export default {
       return this.$t("projects.tag");
     },
     getTitle() {
-      return this.$t("projects.title");
+      return this.$t("product.title");
     },
     getList() {
       return [
         {
-          title: this.$t("projects.project1.name"),
+          title: this.$t("product.product1.name"),
           tag: [
             this.$t("projects.project1.tag1"),
             this.$t("projects.project1.tag2"),
           ],
-          link: "projects/sualti-optik-spektrum-olcum-cihazi",
+          img: require("../../assets/images/h1-port-img-2.jpg"),
+          link: "products/co-lighting",
           buttonText: this.$t("projects.buttonText"),
         },
         {
-          title: this.$t("projects.project3.name"),
+          title: this.$t("product.product5.name"),
           tag: [
-            this.$t("projects.project3.tag1"),
-            this.$t("projects.project3.tag2"),
+            this.$t("product.product5.tag1"),
+            this.$t("product.product5.tag2"),
           ],
-          link: "projects/denizalti-gemisi-helikopter-arasinda-guvenli-elektro-optik-haberlesme-sistemi",
+          img: require("../../assets/images/h1-port-img-2.jpg"),
+          link: "products/co-link",
           buttonText: this.$t("projects.buttonText"),
         },
         {
-          title: this.$t("projects.project2.name"),
+          title: this.$t("product.product2.name"),
           tag: [
             this.$t("projects.project2.tag1"),
             this.$t("projects.project2.tag2"),
           ],
-          link: "projects/denizaltilarda-oz-akustik-kestirimi-ve-akustik-izlemeuyari-sistemi",
+          img: require("../../assets/images/h1-port-img-2.jpg"),
+          link: "products/co-diver",
+          buttonText: this.$t("projects.buttonText"),
+        },
+        {
+          title: this.$t("product.product6.name"),
+          tag: [
+            this.$t("product.product6.tag1"),
+            this.$t("product.product6.tag2"),
+          ],
+          img: require("../../assets/images/h1-port-img-2.jpg"),
+          customlink: "https://yetenek12.com/",
           buttonText: this.$t("projects.buttonText"),
         },
       ];

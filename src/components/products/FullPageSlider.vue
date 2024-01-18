@@ -217,6 +217,7 @@ export default {
 
 <style scoped>
 
+
 /* -------------------------------- Main -------------------------------- */
 ._sliderContainer{
 	width: 100%;

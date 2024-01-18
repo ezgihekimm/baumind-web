@@ -1,9 +1,9 @@
 <template>
 <div class="_container">
     <div class="introContainer">
-        <div class="introColImg">
-            <img class="introImg" src="@/assets/images/codiver/codiver.png" alt="">
-        </div>
+      <div class="introColImg">
+            <img class="introImg" src="../../assets/images/products/colink/minified/colink.png" alt="">
+        </div> 
         <div class="introColText">
             <h1 class="introTitle">
                 coDiver
@@ -15,55 +15,28 @@
     </div>
 
     <div class="technicalContainer">
-
         <div class="technicalColText">
             <h1 class="technicalTitle">
-                {{$t('codiver.teknikbaslik')}}
+                {{$t('colink.teknikbaslik')}}
             </h1>
             <p class="technicalSubtitle">
                 <ul class="technicalList">
-                    <li>{{$t('codiver.teknik1')}}</li>
-                    <li>{{$t('codiver.teknik2')}}
-                       
+                    <li>{{$t('colink.teknik1')}}</li>
+                    <li>{{$t('colink.teknik2')}}
                     </li>
-
-                    <li>{{$t('codiver.teknik3')}}</li>
-                    <li>{{$t('codiver.teknik4')}}</li>
-                    <li>{{$t('codiver.teknik5')}}</li>
-                    <li>{{$t('codiver.teknik6')}}</li>
-                    <li>{{$t('codiver.teknik7')}}</li>
-                    <li>{{$t('codiver.teknik8')}}</li>
+                    <li>{{$t('colink.teknik3')}}</li>
+                    <li>{{$t('colink.teknik4')}}</li>
+                    <li>{{$t('colink.teknik5')}}</li>
+                    <li>{{$t('colink.teknik6')}}</li>
+                    <li>{{$t('colink.teknik7')}}</li>
+                    <li>{{$t('colink.teknik8')}}</li>
                 </ul>
             </p>
         </div>
         <div class="technicalColImg">
-            <img class="technicalImg" src="@/assets/images/colighting/teknik2.jpg" alt="">
-
+            <img class="technicalImg" src="../../assets/images/products/colink/colink2.png" alt="">
         </div>
-
     </div>
-    <h1 class="partHead">
-        {{$t('colight.part')}}
-    </h1>
-    <div class="partContainer">
-
-        <div class="partImg">
-            <img src="@/assets/images/colighting/design.jpg" alt="">
-            <h2 class="partTitle">{{$t('colight.part1')}}</h2>
-        </div>
-        <div class="vl"></div>
-        <div class="partImg">
-            <img src="@/assets/images/colighting/color.jpg" alt="">
-            <h2 class="partTitle">{{$t('colight.part2')}}</h2>
-        </div>
-        <div class="vl"></div>
-        <div class="partImg">
-            <img src="@/assets/images/colighting/battery.jpg" alt="">
-            <h2 class="partTitle">{{$t('colight.part2')}}</h2>
-        </div>
-
-    </div>
-
 </div>
 </template>
 
@@ -73,9 +46,8 @@
 
 <style scoped>
 ._container {
-    background-color: #121212;
+    background-color: #131619;
     font-family: 'DM Sans', sans-serif;
-    padding: 5%;
 }
 
 /* Introduction */
@@ -85,14 +57,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .introColImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 40%;
+    margin-right: 50px;
     overflow: hidden;
 }
 
@@ -101,44 +74,7 @@
     height: 50%;
     min-height: 450px;
     object-fit: cover;
-    transition: transform .2s;
 }
-
-.introImg:hover {
-    opacity: 1;
-    -webkit-animation: flash 1s;
-    animation: flash 1s;
-    transform: scale(1.01)
-}
-
-@-webkit-keyframes flash {
-
-    0%,
-    50%,
-    100% {
-        opacity: 1;
-    }
-
-    25%,
-    75% {
-        opacity: 0;
-    }
-}
-
-@keyframes flash {
-
-    0%,
-    50%,
-    100% {
-        opacity: 1;
-    }
-
-    25%,
-    75% {
-        opacity: 0;
-    }
-}
-
 .introColText {
     display: flex;
     width: 40%;
@@ -172,42 +108,6 @@
 .vl {
     border-left: 1px dotted rgba(255, 255, 255, 0.5);
 
-}
-
-.partHead {
-    color: aliceblue;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 40px;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 80px;
-}
-
-.partImg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 33%;
-    transition: transform 250ms ease-in-out;
-}
-
-.partImg img {
-    height: 300px;
-    object-fit: contain;
-    /* border: 1px solid green; */
-}
-
-.partTitle {
-    color: rgb(169, 167, 167);
-    margin-top: 30px;
-}
-
-.partImg:hover {
-    transform: translateY(-30px);
 }
 
 /* End Parts */
@@ -246,30 +146,26 @@
     }
 
 }
-
 /* technical */
 .technicalContainer {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
-
 .technicalColImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 30%;
     overflow: hidden;
 }
-
 .technicalImg {
     width: 100%;
     height: 50%;
     min-height: 450px;
     object-fit: cover;
 }
-
 .technicalColText {
     display: flex;
     width: 40%;

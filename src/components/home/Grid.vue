@@ -87,8 +87,7 @@ export default {
 	justify-content: center;
 	transition-duration: 0.5s;
 	background-color: white;
-	/* margin-bottom: 100px; */
-	/* margin-top: 50px; */
+	 padding-top: 100px; 
 }
 
 ._container_inside{

@@ -1,21 +1,12 @@
 <template>
 	<Header type="transparent" />
 	<Slider />
-	<AboutUs />
-	<Grid />
-	<LatestPatents />
-	<ContactHome />
-	<Footer />
 </template>
 
 <script>
 import AOS from 'aos'
 import Header from '../components/common/Header'
 import Slider from '../components/home/Slider'
-import AboutUs from '../components/home/AboutUs'
-import Grid from '../components/home/Grid'
-import LatestPatents from '../components/home/LatestPatents'
-import ContactHome from '../components/home/ContactHome.vue'
 import Footer from '../components/common/Footer'
 
 export default {
@@ -23,10 +14,6 @@ export default {
 	components: {
 		Header,
 		Slider,
-		AboutUs,
-		Grid,
-		LatestPatents,
-		ContactHome,
 		Footer,
 	},
 	mounted(){
