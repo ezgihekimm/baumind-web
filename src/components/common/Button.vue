@@ -9,7 +9,11 @@
       :href="linkCreator(this.$i18n.locale, href)"
       @click="navigate"
       class="button"
-      :class="{ dark: type == 'dark', light: type == 'light' }"
+      :class="{
+        dark: type == 'dark',
+        light: type == 'light',
+        transparent: type == 'transparent',
+      }"
     >
       {{ text }} &nbsp;
       <div class="iconContainer">
@@ -86,18 +90,13 @@ export default {
   border-radius: 100px;
   padding-left: 19px;
   padding-right: 40px;
-
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
-
   cursor: pointer;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-
-  /* border: 1px solid purple; */
 }
-
 .iconContainer {
   width: 22px;
   height: 22px;
@@ -109,9 +108,7 @@ export default {
   top: 50%;
   transform: translateY(-55%);
   overflow: hidden;
-  /* border: 1px solid red; */
 }
-
 .button span#arrow1 {
   font-size: 23px;
   display: block;
@@ -128,14 +125,12 @@ export default {
   transform: translateY(100%) translateX(-100%);
   transition: transform 0.2s ease-in-out;
 }
-
 .button:hover span#arrow1 {
   transform: translateY(-100%) translateX(100%);
 }
 .button:hover span#arrow2 {
   transform: translateY(0%) translateX(0%);
 }
-
 .dark {
   color: white;
   background-color: black;
@@ -143,5 +138,9 @@ export default {
 .light {
   color: black;
   background-color: white;
+}
+
+.transparent {
+  background-color: transparent;
 }
 </style>

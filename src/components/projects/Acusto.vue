@@ -1,7 +1,25 @@
 <template>
+  <div
+    class=""
+    style="
+      width: 150px;
+      color: white;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 20px;
+    "
+  >
+    <Button
+      type="transparent"
+      :href="href"
+      :text="$t('button.back')"
+      link="projects"
+      target="_self"
+    />
+  </div>
   <div class="_container">
     <div class="_insideContainer">
-      <div class="_subTitle">
+      <div class="_subTitle" style="color: white">
         {{ $t("project2.baslik") }}
       </div>
       <div class="aims">
@@ -21,14 +39,20 @@
     </div>
   </div>
 </template>
-
+<script>
+import Button from "../common/Button.vue";
+export default {
+  components: {
+    Button,
+  },
+};
+</script>
 <style scoped>
 ._container {
   display: flex;
   justify-content: center;
   background-color: #121619;
   width: 100%;
-  padding-top: 3%;
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -42,7 +66,7 @@
 ._subTitle {
   text-align: center;
   font-size: 25px;
-  color: rgb(229, 236, 243);
+  color: rgb(15, 57, 100);
 }
 
 .aims {

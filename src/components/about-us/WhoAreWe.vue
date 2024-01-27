@@ -12,29 +12,16 @@
       <div class="info">
         <h2 class="about">{{ $t("aboutus.whoarewe") }}</h2>
         <p class="info1">
-          BAU A.Ş ; 2008 yılında Bahçeşehir Üniversitesi çatısı altında, savunma
-          sanayi alanında optik, elektro-optik, akustik ve bilgi teknolojileri
-          konularında araştırma ve geliştirme birimi olarak faaliyetlerimize
-          başladık.
+          {{ $t("about.1") }}
         </p>
         <p class="info1">
-          Kuruluşumuzdan bugüne kadar Türkiye’nin askeri ve sivil alanlarda
-          teknolojik ihtiyaçları ve stratejik hedefleri doğrultusunda yenilikçi
-          çözümler üreten, yurtiçinin yanı sıra yurtdışında da rekabet
-          edebilecek yetkinliğe sahip lider bir firma olmak için çalışıyoruz.
+          {{ $t("about.2") }}
         </p>
         <p class="info1">
-          Türkiye’nin teknolojik alanda dış ülkelere bağlılığını azaltmada
-          katkıda bulunacak nitelikte yenilikçi çözümler üretmek amacıyla,
-          üniversiteler ve diğer mühendislik firmaları ile stratejik ortaklıklar
-          kurarak, ileri teknolojileri uygulamaları içeren ARGE ve ürün
-          geliştirme faaliyetlerini yürütüyoruz.
+          {{ $t("about.3") }}
         </p>
         <p class="info1">
-          Askeri/ Sivil kullanıma uygun yenilikçi proje ve ürünlerimizi ilgili
-          sektörlere lisanslamak/teknolojiyi transfer etmek, bunlara ek olarak
-          sektördeki kurum ve firmalara uzmanlık alanlarımızda
-          danışmanlık-eğitim hizmeti sunuyoruz.
+          {{ $t("about.4") }}
         </p>
       </div>
     </div>

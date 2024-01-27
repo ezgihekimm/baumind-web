@@ -1,9 +1,27 @@
 <template>
+  <div
+    class=""
+    style="
+      width: 150px;
+      color: white;
+      margin-bottom: 20px;
+      margin-top: 5%;
+      margin-left: 5%;
+    "
+  >
+    <Button
+      type="transparent"
+      :href="href"
+      :text="$t('button.back')"
+      link="projects"
+      target="_self"
+    />
+  </div>
   <div class="_container">
     <div class="_insideContainer">
       <div class="_title">
         <div class="_subTitle"></div>
-        <div class="_subTitle1">SUALTI OPTİK SPEKTRUM ÖLÇÜM CİHAZI (coCTD)</div>
+        <div class="_subTitle1">{{ $t("project1.name") }}</div>
         <div class="aims">
           {{ $t("project1.amac") }}
         </div>
@@ -93,7 +111,15 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import Button from "../common/Button.vue";
+export default {
+  name: "CoLighting",
+  components: {
+    Button,
+  },
+};
+</script>
 
 <style scoped>
 ._container {
@@ -101,7 +127,6 @@
   width: 100%;
   font-family: "DM Sans", sans-serif;
   color: aliceblue;
-  padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;

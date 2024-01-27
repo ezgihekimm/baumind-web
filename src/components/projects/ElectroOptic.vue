@@ -1,5 +1,14 @@
 <template>
   <div class="_container">
+    <div class="" style="width: 150px; color: white; margin-bottom: 20px">
+      <Button
+        type="transparent"
+        :href="href"
+        :text="$t('button.back')"
+        link="projects"
+        target="_self"
+      />
+    </div>
     <div class="_insideContainer">
       <div class="titleContainer">
         <div class="_subTitle">
@@ -66,8 +75,12 @@
 </template>
 
 <script>
+import Button from "../common/Button.vue";
 export default {
   name: "VideoPlayer",
+  components: {
+    Button,
+  },
   computed: {
     videoElement() {
       return this.$refs.video;

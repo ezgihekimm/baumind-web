@@ -19,10 +19,14 @@
           />
           <div class="name" data-v-3c8ce00b="">Nil Girgin Kalıp</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.niltitle1") }}
+            </div>
+            <div class="_col" data-v-3c8ce00b="">
+              {{ $t("teams.niltitle2") }}
+            </div>
+            <div class="_col" data-v-3c8ce00b="">
+              {{ $t("teams.niltitle3") }}
             </div>
           </div>
         </div>
@@ -34,10 +38,8 @@
           />
           <div class="name" data-v-3c8ce00b="">Ferhat Kutlu</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.ferhattitle") }}
             </div>
           </div>
         </div>
@@ -49,10 +51,8 @@
           />
           <div class="name" data-v-3c8ce00b="">Selçuk Özyurt</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.selcuktitle") }}
             </div>
           </div>
         </div>
@@ -64,10 +64,8 @@
           />
           <div class="name" data-v-3c8ce00b="">Bülent Aydın</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.bulenttitle") }}
             </div>
           </div>
         </div>
@@ -79,10 +77,8 @@
           />
           <div class="name" data-v-3c8ce00b="">Süleyman Şemsioğlu</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.suleymantitle") }}
             </div>
           </div>
         </div>
@@ -94,10 +90,8 @@
           />
           <div class="name" data-v-3c8ce00b="">Hakan Karaman</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.hakantitle") }}
             </div>
           </div>
         </div>
@@ -109,10 +103,8 @@
           />
           <div class="name" data-v-3c8ce00b="">Eray Davran</div>
           <div class="subtitle" data-v-3c8ce00b="">
-            <div class="_col" data-v-3c8ce00b="">Direktör, BAUTTO</div>
-            <div class="_col" data-v-3c8ce00b="">Genel Müdür, BAUMIND</div>
             <div class="_col" data-v-3c8ce00b="">
-              Genel Müdür, BUG Lab TEKMER
+              {{ $t("teams.eraytitle") }}
             </div>
           </div>
         </div>

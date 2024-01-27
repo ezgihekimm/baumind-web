@@ -7,7 +7,7 @@
     :title="$t('Misyon & Vizyon')"
     :head="$t('aboutus.tag')"
   />
-  <Teams type="light" :title="$t('Ekibimiz')" :head="$t('aboutus.tag')" />
+  <Teams type="light" :title="$t('teams.title')" :head="$t('aboutus.tag')" />
   <Footer />
 </template>
 

@@ -101,7 +101,9 @@
       "buttonText": "Daha Fazla Bilgi"
     }
   },
-
+  "button": {
+    "back": "Geri Dön"
+  },
   "products": {
     "scroll": "SAYFAYI KAYDIRIN",
     "more-info": "Daha Fazla Bilgi",
@@ -209,7 +211,30 @@
     "text": "Aradığınız sayfa henüz mevcut değil. Lütfen daha sonra tekrar kontrol edin.",
     "buttonText": "Geri Dön"
   },
-
+  "about": {
+    "1": "BAU A.Ş ; 2008 yılında Bahçeşehir Üniversitesi çatısı altında, savunma sanayi alanında optik, elektro-optik, akustik ve bilgi teknolojileri konularında araştırma ve geliştirme birimi olarak faaliyetlerimize başladık.",
+    "2": "Kuruluşumuzdan bugüne kadar Türkiye’nin askeri ve sivil alanlarda teknolojik ihtiyaçları ve stratejik hedefleri doğrultusunda yenilikçi çözümler üreten, yurtiçinin yanı sıra yurtdışında da rekabet edebilecek yetkinliğe sahip lider bir firma olmak için çalışıyoruz.",
+    "3": "Türkiye’nin teknolojik alanda dış ülkelere bağlılığını azaltmada katkıda bulunacak nitelikte yenilikçi çözümler üretmek amacıyla, üniversiteler ve diğer mühendislik firmaları ile stratejik ortaklıklar kurarak, ileri teknolojileri uygulamaları içeren ARGE ve ürün geliştirme faaliyetlerini yürütüyoruz.",
+    "4": "Askeri/ Sivil kullanıma uygun yenilikçi proje ve ürünlerimizi ilgili sektörlere lisanslamak/teknolojiyi transfer etmek, bunlara ek olarak sektördeki kurum ve firmalara uzmanlık alanlarımızda danışmanlık-eğitim hizmeti sunuyoruz."
+  },
+  "misyon": {
+    "1": "Optik, Elektro-Optik, Akustik ve bilgi teknolojileri alanlarında; öncelikle Savunma Sanayi başta olmak üzere askeri/sivil kullanıma yönelik, özgün yenilikçi sürdürülebilir projeler yapan, çözüm sunan ve ürün üreten araştırma geliştirme firması olmak."
+  },
+  "vizyon": {
+    "1": "Ülkemizin teknolojik ihtiyaçları ve stratejik hedefleri doğrultusunda, bilgi ve teknoloji üreten yurtiçi ve yurtdışında yetkinliğe sahip lider bir firma olmak."
+  },
+  "teams": {
+    "title": "Ekipler",
+    "niltitle1": "Yönetim Kurulu Başkanı BAUMIND ",
+    "niltitle2": "Genel Müdür, BUG Lab TEKMER",
+    "niltitle3": "Direktör, BAUTTO",
+    "ferhattitle": "Genel Müdür",
+    "selcuktitle": " Ar-Ge Direktörlüğü",
+    "bulenttitle": "Genel Müdür Yardımcısı",
+    "suleymantitle": "Sistem Entegrasyonu Uzmanı",
+    "hakantitle": "İmalat Müdürü",
+    "eraytitle": "Satın Alma Mühendisliği"
+  },
   "project1": {
     "arastirma": "ARAŞTIRMA & GELİŞTİRME",
     "projeler": "Projeler",
@@ -222,7 +247,7 @@
     "6": "Su kalitesinin incelenmesi",
     "7": "Tuzluluk oranının tuz cinsine bağlı olarak hassas şekilde incelenmesi",
     "8": "Türk denizlerinde optik iletkenlik haritalarının çıkarılması",
-    "amac": " Projenin amacı; deniz veya göl sularının optik iletkenliğinin, dalga boyuna bağlı olarak ölçülmesidir.Bu ölçüm sonucunda elde edilen grafiğin analiz edilmesi ile bize sağlayabileceği bilgiler ve kullanılabileceği alanlar:"
+    "amac": "Projenin amacı; deniz veya göl sularının optik iletkenliğinin, dalga boyuna bağlı olarak ölçülmesidir.Bu ölçüm sonucunda elde edilen grafiğin analiz edilmesi ile bize sağlayabileceği bilgiler ve kullanılabileceği alanlar:"
   },
   "project2": {
     "name": "Denizaltılarda Öz Akustik Kestirimi ve Akustik İzleme/Uyarı Sistemi",
@@ -267,11 +292,7 @@
     "teknik7": "6.000 mAh harici batarya ünitesi",
     "teknik8": "Sualtı görüş mesafesinin iki katına kadar iletişim mesafesi",
     "teknik9": "Kestirilemez, Dinlenemez ve Karıştırılamaz iletişim imkanı",
-    "teknik10": "Export Lisansına tabi olmayan malzemelerden %75 yerli ve milli olarak üretilmiştir",
-    "part": "Teknik Parçalar",
-    "part1": "Alüminyum Tasarım",
-    "part2": "Renk Sensörleri",
-    "part3": "Pil Ünitesi"
+    "teknik10": "Export Lisansına tabi olmayan malzemelerden %75 yerli ve milli olarak üretilmiştir"
   },
   "colink": {
     "giris": "Atmosferik ortamlarda kullanılmak üzere tasarlanmış olan coLink, göze zarar vermeyen elektro-optik teknoloji ile iletişimde bilgi güvenliği sağlar. Avcı, araştırmacı ve gözlemciler için, tüm dış alan aktivitelerinde, sabit platformlarda tripod ile kullanımda, gizli operasyonlarda güvenli iletişimde, özel kuvvet personelleri arası iletişimde, sabit askeri platformlar arası mobil ses/veri iletişimde kullanılmaktadır.",
@@ -285,10 +306,6 @@
     "teknik7": "6.000mAh harici batarya ünitesi",
     "teknik8": "1400 metre operasyonel iletişim mesafesi",
     "teknik9": "Kestirilemez, Dinlenemez ve Karıştırılamaz iletişim imkanı",
-    "teknik10": "Export Lisansına tabi olmayan malzemelerden %75 yerli ve milli olarak üretilmiştir",
-    "part": "Teknik Parçalar",
-    "part1": "Alüminyum Tasarım",
-    "part2": "Renk Sensörleri",
-    "part3": "Pil Ünitesi"
+    "teknik10": "Export Lisansına tabi olmayan malzemelerden %75 yerli ve milli olarak üretilmiştir"
   }
 }

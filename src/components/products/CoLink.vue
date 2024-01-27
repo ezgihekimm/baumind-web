@@ -1,15 +1,18 @@
 <template>
 <div class="_container">
+    <div class="" style="width: 150px; color: white; margin-top: 5%; margin-left: 5%; ">
+        <Button type="transparent" :href="href" :text="$t('button.back')" link="products" target="_self" />
+    </div>
     <div class="introContainer">
       <div class="introColImg">
             <img class="introImg" src="../../assets/images/products/colink/minified/colink.png" alt="">
         </div> 
         <div class="introColText">
             <h1 class="introTitle">
-                coDiver
+                coLink
             </h1>
             <p class="introSubtitle">
-                {{$t('codiver.giris')}}
+                {{$t('colink.giris')}}
             </p>
         </div>
     </div>
@@ -30,6 +33,8 @@
                     <li>{{$t('colink.teknik6')}}</li>
                     <li>{{$t('colink.teknik7')}}</li>
                     <li>{{$t('colink.teknik8')}}</li>
+                    <li>{{$t('colink.teknik9')}}</li>
+                    <li>{{$t('colink.teknik10')}}</li>
                 </ul>
             </p>
         </div>
@@ -41,8 +46,15 @@
 </template>
 
 <script>
-
+import Button from '../common/Button.vue'
+export default {
+    name: "CoLighting",
+    components: {
+        Button
+    },
+};
 </script>
+
 
 <style scoped>
 ._container {

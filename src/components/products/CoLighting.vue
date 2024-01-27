@@ -1,5 +1,8 @@
 <template>
 <div class="_container">
+    <div class="" style="width: 150px; color: white; margin-top: 5%; margin-left: 5%; ">
+        <Button type="transparent" :href="href" :text="$t('button.back')" link="products" target="_self" />
+    </div>
     <div class="introContainer">
         <div class="introColImg">
             <img class="introImg" src="@/assets/images/colighting/colightnew.png" alt="">
@@ -55,11 +58,20 @@
 </div>
 </template>
 
+<script>
+import Button from '../common/Button.vue'
+export default {
+    name: "CoLighting",
+    components: {
+        Button
+    },
+};
+</script>
+
 <style scoped>
 ._container {
     background-color: #131619;
     font-family: 'DM Sans', sans-serif;
-    padding: 5%;
 }
 
 /* Introduction */
@@ -88,7 +100,7 @@
 }
 .introColText {
     display: flex;
-    width: 40%;
+    width: 35%;
     flex-direction: column;
 }
 
@@ -243,7 +255,7 @@
         width: 50%;
     }
 
-    .technicalColList {
+.technicalColList {
         width: 100%;
     }
 }

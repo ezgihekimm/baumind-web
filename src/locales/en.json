@@ -88,16 +88,16 @@
     "patent": {
       "tag": "Research & Development",
       "title": "Patents",
-      "patent1": "Sualtı elektro-optik haberleşme sistemi",
-      "patent2": "Su altı optik akustik kompozit tuzak sistemi",
-      "patent3": "Optik Nişangâhlı Silahlarda Kablosuz Görüntü Aktarma Cihazı",
-      "patent4": "Bir Lastik Aşınma Kontrol Sistemi",
-      "patent5": "Sualtı Aydınlatma Tertibatı",
-      "patent6": "Suyun Soğurma Kabiliyetini Analiz Etmek İçin Bir Sualtı Analiz Cihazı",
-      "patent7": "Su Altında Aydınlatma Yapmaya Uygun Bir Aydınlatma Tertibatı",
-      "patent8": "Bir Su Altı Haberleşme Cihazı",
-      "patent9": "Sualtı Platformları Arasında Haberleşme Cihazı",
-      "patent10": "Modüler Bir Elektro Optik Haberleşme Cihazı",
+      "patent1": "Underwater electro-optic communication system",
+      "patent2": "Underwater optical acoustic composite trap system",
+      "patent3": "Wireless Image Transmission Device in Optical Aiming Firearms",
+      "patent4": "A Rubber Wear Control System",
+      "patent5": "Underwater Lighting Equipment",
+      "patent6": "Underwater Analysis Device for Analyzing Water Absorption Capability",
+      "patent7": "Lighting Equipment Suitable for Illuminating Underwater",
+      "patent8": "An Underwater Communication Device",
+      "patent9": "Communication Device Between Underwater Platforms",
+      "patent10": "Modular Electro-Optic Communication Device",
       "buttonText": "More Information"
     }
   },
@@ -173,7 +173,61 @@
     "text": "The page you are looking for is not available yet. Please check back later.",
     "buttonText": "Go Back"
   },
-
+  "about": {
+    "1": "BAU Inc. In 2008, we commenced our activities as a research and development unit under Bahçeşehir University in the defense industry, focusing on optical, electro-optical, acoustic, and information technologies.",
+    "2": "Since our establishment, we have been working to become a leading company capable of producing innovative solutions in line with Turkey's technological needs and strategic objectives in both military and civilian sectors, both domestically and internationally.",
+    "3": "With the aim of reducing Turkey's dependence on foreign countries in the technological field, we establish strategic partnerships with universities and other engineering companies to conduct R&D and product development activities that involve the application of advanced technologies.",
+    "4": "We license/transfer technology our innovative projects and products suitable for military/civilian use to relevant sectors. Additionally, we provide consultancy and training services to institutions and companies in our expertise areas in the industry."
+  },
+  "misyon": {
+    "1": "To be a research and development company that primarily focuses on Defense Industry, as well as military/civilian applications in the fields of Optical, Electro-Optical, Acoustic, and Information Technologies, by creating original, innovative, and sustainable projects, providing solutions, and producing products."
+  },
+  "vizyon": {
+    "1": "To become a leading company with competence in generating knowledge and technology both domestically and internationally, in line with our country's technological needs and strategic objectives."
+  },
+  "teams": {
+    "title": "Teams",
+    "niltitle1": "Chairman of the Board, BAUMIND",
+    "niltitle2": "General Manager, BUG Lab TEKMER",
+    "niltitle3": "Director, BAUTTO",
+    "ferhattitle": "General Manager",
+    "selcuktitle": "R&D Director",
+    "bulenttitle": "Deputy General Manager",
+    "suleymantitle": "System Integration Specialist",
+    "hakantitle": "Manufacturing Manager",
+    "eraytitle": "Procurement Engineering"
+  },
+  "project1": {
+    "arastirma": "Research & Development",
+    "projeler": "Projects",
+    "name": "Underwater Optical Spectrum Measurement Device",
+    "1": "Examining the hydrocarbon distribution of water",
+    "2": "Examining the algal capacity of water (bioactivity)",
+    "3": "Examining the plankton capacity of water",
+    "4": "Examination of soil particles in water in terms of erosion,",
+    "5": "Methane examination (bioactivity, examination of fault lines)",
+    "6": "Examination of water quality",
+    "7": "Precise examination of salinity depending on salt type",
+    "8": "Creating optical conductivity maps in Turkish seas",
+    "amac": "The goal of the project; It is the measurement of the optical conductivity of sea or lake waters depending on the wavelength. By analyzing the graph obtained as a result of this measurement, the information it can provide us and the areas where it can be used are:"
+  },
+  "project2": {
+    "name": "Self-Acoustic Estimation and Acoustic Monitoring/Warning System in Submarines",
+    "baslik": "SELF ACOUSTIC ESTIMATION AND ACOUSTIC MONITORING/WARNING SYSTEM IN SUBMARINES",
+    "amac": "The systems subject to the project are a wireless communication technology, and sound transmission is provided between two platforms with light beams and high-frequency sound waves (ultrasonic) instead of radio waves. In these systems, high-frequency modulated LED or laser light sources are used as light sources. Electro-optic Since systems are inefficient in cases where visibility is insufficient and weather conditions such as fog etc., the system will provide communication through acoustic communication in such cases.",
+    "bilgi": "Presidency of Defense Industries and Anadolu Deniz İnşaat Kızakları A.Ş. Within the scope of the Amphibious Ship (LST) Supply Contract signed in March 2016, command and control software development and Sensor design-manufacturing was successfully completed in December 2018 and delivered to İTÜNOVA."
+  },
+  "project4": {
+    "name": "Secure Optical Communication System Between Submarine and Helicopter",
+    "1": "Communication range: 74.5 meters (testable 22.5 m underwater, 52 m above water)",
+    "2": "It communicates optically via LED.",
+    "3": "Provides directed communication",
+    "4": "Provides directed communication",
+    "5": "EMI and RF interference resistance",
+    "head": "SECURE ELECTRO-OPTICAL COMMUNICATION SYSTEM BETWEEN SUBMARINE SHIP AND HELICOPTER",
+    "amac": "Presidency of Defense Industries and Istanbul Maritime Shipbuilding Industry Inc. Within the scope of the Seismic Research Ship Construction Project signed in April 2012, the Secure Optical Communication System Between Submarine and Helicopter (DEHEGOPHS) project, which was contracted under the title of Technology Acquisition Project (August 2012), was successfully completed in 2015.",
+    "head1": "(DEHEGOPHS)"
+  },
   "colight": {
     "giris": "coLighting is a lighting system that offers innovative solutions in its technological field. coLighting is a system that automatically adjusts the RGB light intensity by measuring the wavelength-based attenuation in the operational aquatic environment.",
     "teknikbaslik": "Technical Specifications",
@@ -201,6 +255,60 @@
     "teknik5": "Power Capacity : 6.000 mAh",
     "teknik6": "Weight : 2Kg",
     "teknik7": "Storage Conditions : -5 °C/ +45 °C",
-    "teknik8": "Working Conditions : 0 °C/ +45 °C"
+    "teknik8": "Working Conditions : 0 °C/ +45 °C",
+    "teknik9": "Unpredictable, Unlistenable and Unmistakable communication opportunity",
+    "teknik10": "Produced 75% locally and nationally from materials that are not subject to Export License"
+  },
+  "colink": {
+    "giris": "Designed for use in atmospheric environments, coLink provides information security in communication with eye-safe electro-optical technology. It is used for hunters, researchers and observers in all outdoor activities, use with a tripod on fixed platforms, secure communication in secret operations, communication between special forces personnel, and mobile voice/data communication between fixed military platforms.",
+    "teknikbaslik": "Technicial Specifications",
+    "teknik1": "Full and Half Duplex Voice Communication Opportunity",
+    "teknik2": "IP23 sealing",
+    "teknik3": "Resistant to MIL-STD-810G Method 501.5 (I-II), Method 502.5 (I-II), Method 507.5 (II) environmental conditions",
+    "teknik4": "MIL-STD-461G RE102 (b/c), RE103 (a/b) EMI EMC resistant",
+    "teknik5": "2 hours of operational use with 2 hours of charging in Full Duplex communication mode",
+    "teknik6": "8 hours of operational use with 2 hours of charging in Half Duplex communication mode",
+    "teknik7": "6,000mAh external battery unit",
+    "teknik8": "1400 meters operational communication distance",
+    "teknik9": "Unpredictable, Unlistenable and Unmistakable communication opportunity",
+    "teknik10": "Produced 75% locally and nationally from materials that are not subject to Export License"
+  },
+  "button": {
+    "back": "Come Back"
+  },
+  "product": {
+    "tag": "Research & Development",
+    "title": "Products",
+    "buttonText": "More Information",
+    "product1": {
+      "name": "Underwater Lighting Equipment coLigthing",
+      "tag1": "Optical",
+      "tag2": "Underwater"
+    },
+    "product2": {
+      "name": "Underwater Communication Device coDiver",
+      "tag1": "Acoustic",
+      "tag2": "Underwater"
+    },
+    "product3": {
+      "name": "Atmospheric Electro-Optic Communication System coDatalink",
+      "tag1": "Optical",
+      "tag2": "Communication"
+    },
+    "product4": {
+      "name": "Underwater Analyzer for Water Absorption Capability coSpectro",
+      "tag1": "Optical",
+      "tag2": "Technology"
+    },
+    "product5": {
+      "name": "Modular Electro-Optic Communication Device coLink",
+      "tag1": "Optical",
+      "tag2": "Technology"
+    },
+    "product6": {
+      "name": "Innovative Technological Generation Education Kit Ability-12",
+      "tag1": "Education",
+      "tag2": "Technology"
+    }
   }
 }
